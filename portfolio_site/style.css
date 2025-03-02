@@ -1,0 +1,81 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
+            color: #00ffea;
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 26px;
+            box-shadow: 0 4px 15px rgba(0, 255, 234, 0.5);
+            text-transform: uppercase;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 255, 234, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 255, 234, 0.8);
+        }
+        h2 {
+            color: #ff007f;
+            border-bottom: 3px solid #00ffea;
+            padding-bottom: 5px;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .info div {
+            width: 48%;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: linear-gradient(120deg, #ff007f, #00ffea);
+            color: black;
+            padding: 12px;
+            margin: 5px 0;
+            border-radius: 8px;
+            transition: 0.3s;
+            text-align: center;
+        }
+        li:hover {
+            background: linear-gradient(120deg, #00ffea, #ff007f);
+            transform: scale(1.05);
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ffea;
+            font-size: 16px;
+            margin-top: 20px;
+            box-shadow: 0 -4px 15px rgba(0, 255, 234, 0.5);
+        }
+  
